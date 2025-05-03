@@ -1,0 +1,5 @@
+Do analizy danych i AI w chmurze Azure można użyć takich narzędzi jak Azure Data Lake (przechowywanie), Azure Data Factory (ETL), Azure Databricks (przetwarzanie i ML), Azure Machine Learning (trenowanie modeli), oraz Power BI (wizualizacja).
+
+Przykładowo, przy PoC wykrywania anomalii z linii produkcyjnej dane z czujników trafiają do Azure IoT Hub, są analizowane w czasie rzeczywistym przez Azure Stream Analytics, przechowywane w Data Lake, a model wykrywania anomalii trenowany w Azure ML wykrywa nietypowe zachowania.
+
+Dla firmy Rockstar Games można zaprojektować architekturę Big Data w Azure, gdzie dane gameplayowe i logi z gier trafiają do Event Hub i Data Lake, są przetwarzane w Databricks i analizowane przez modele ML wykrywające bugi, crash loop'y czy frustrację graczy – wyniki trafiają do Power BI i systemów alertowych, co pozwala szybciej reagować na problemy i poprawiać jakość gry.
