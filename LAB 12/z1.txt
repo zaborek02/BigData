@@ -1,0 +1,9 @@
+Jobs – to panel, w którym można przejrzeć wszystkie aktualne i zakończone zadania w Spark. Znajdziesz tu informacje o statusie każdego joba, ile trwał jego wykonanie oraz jakie etapy (stages) się na niego składały. Dzięki temu łatwo można śledzić postęp całego procesu oraz zidentyfikować ewentualne problemy.
+
+Stages – tutaj widać szczegółowe dane dotyczące poszczególnych etapów, które tworzą zadanie. Możesz sprawdzić liczbę podzadań (tasks) w danym etapie, jak długo trwało ich wykonanie, a także statystyki dotyczące błędów lub opóźnień. To pozwala lepiej zrozumieć, jak Spark dzieli pracę i jak efektywnie ją realizuje.
+
+Storage – zakładka poświęcona pamięci podręcznej i trwałemu przechowywaniu danych w Spark. Znajdziesz tu informacje o tym, które dane są zcache’owane, jaki zajmują rozmiar oraz jak są rozłożone w różnych partycjach. Dzięki temu łatwiej monitorować wykorzystanie pamięci i zoptymalizować dostęp do najczęściej używanych danych.
+
+Executors – w tym miejscu można zobaczyć szczegóły dotyczące każdego wykonawcy (executora) w klastrze Spark. Panel pokazuje zużycie pamięci, liczbę zadań przypisanych do każdego executora oraz ilość przetworzonych danych. To kluczowe, by zrozumieć, jak obciążenie jest rozłożone między węzły i czy zasoby są wykorzystywane optymalnie.
+
+SQL/DataFrame – ta sekcja skupia się na analizie zapytań Spark SQL oraz operacji wykonywanych na DataFrame’ach. Możesz tu prześledzić plan wykonania zapytania, zobaczyć poszczególne kroki i ich koszt obliczeniowy. To doskonałe narzędzie do diagnozowania wąskich gardeł i optymalizacji zapytań pod kątem wydajności.
